@@ -30,18 +30,18 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
         jMenu9 = new javax.swing.JMenu();
         menuCadHospede = new javax.swing.JMenuItem();
-        MenuConsHospede = new javax.swing.JMenuItem();
+        menuConsHospede = new javax.swing.JMenuItem();
         jMenu10 = new javax.swing.JMenu();
         menuCadQuartos = new javax.swing.JMenuItem();
-        MenuConsQuartos = new javax.swing.JMenuItem();
+        menuConsQuartos = new javax.swing.JMenuItem();
         jMenu11 = new javax.swing.JMenu();
         menuCadFuncionarios = new javax.swing.JMenuItem();
-        MenuConsFuncionarios = new javax.swing.JMenuItem();
+        menuConsFuncionarios = new javax.swing.JMenuItem();
         jMenu12 = new javax.swing.JMenu();
         menuCadFornecedores = new javax.swing.JMenuItem();
-        MenuConsFornecedores = new javax.swing.JMenuItem();
+        menuConsFornecedores = new javax.swing.JMenuItem();
         jMenu13 = new javax.swing.JMenu();
-        MenuCadProdutos = new javax.swing.JMenuItem();
+        menuCadProdutos = new javax.swing.JMenuItem();
         menuConsProdutos = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenu3 = new javax.swing.JMenu();
@@ -60,8 +60,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
         menuCadHospede.setText("Cadastrar");
         jMenu9.add(menuCadHospede);
 
-        MenuConsHospede.setText("Consultar");
-        jMenu9.add(MenuConsHospede);
+        menuConsHospede.setText("Consultar");
+        jMenu9.add(menuConsHospede);
 
         jMenu1.add(jMenu9);
 
@@ -70,8 +70,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
         menuCadQuartos.setText("Cadastrar");
         jMenu10.add(menuCadQuartos);
 
-        MenuConsQuartos.setText("Consultar");
-        jMenu10.add(MenuConsQuartos);
+        menuConsQuartos.setText("Consultar");
+        jMenu10.add(menuConsQuartos);
 
         jMenu1.add(jMenu10);
 
@@ -80,8 +80,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
         menuCadFuncionarios.setText("Cadastrar");
         jMenu11.add(menuCadFuncionarios);
 
-        MenuConsFuncionarios.setText("Consultar");
-        jMenu11.add(MenuConsFuncionarios);
+        menuConsFuncionarios.setText("Consultar");
+        jMenu11.add(menuConsFuncionarios);
 
         jMenu1.add(jMenu11);
 
@@ -90,15 +90,15 @@ public class TelaPrincipal extends javax.swing.JFrame {
         menuCadFornecedores.setText("Cadastrar");
         jMenu12.add(menuCadFornecedores);
 
-        MenuConsFornecedores.setText("Consultar");
-        jMenu12.add(MenuConsFornecedores);
+        menuConsFornecedores.setText("Consultar");
+        jMenu12.add(menuConsFornecedores);
 
         jMenu1.add(jMenu12);
 
         jMenu13.setText("Produtos");
 
-        MenuCadProdutos.setText("Cadastrar");
-        jMenu13.add(MenuCadProdutos);
+        menuCadProdutos.setText("Cadastrar");
+        jMenu13.add(menuCadProdutos);
 
         menuConsProdutos.setText("Consultar");
         jMenu13.add(menuConsProdutos);
@@ -180,11 +180,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenuItem MenuCadProdutos;
-    private javax.swing.JMenuItem MenuConsFornecedores;
-    private javax.swing.JMenuItem MenuConsFuncionarios;
-    private javax.swing.JMenuItem MenuConsHospede;
-    private javax.swing.JMenuItem MenuConsQuartos;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu10;
     private javax.swing.JMenu jMenu11;
@@ -202,7 +197,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuCadFornecedores;
     private javax.swing.JMenuItem menuCadFuncionarios;
     private javax.swing.JMenuItem menuCadHospede;
+    private javax.swing.JMenuItem menuCadProdutos;
     private javax.swing.JMenuItem menuCadQuartos;
+    private javax.swing.JMenuItem menuConsFornecedores;
+    private javax.swing.JMenuItem menuConsFuncionarios;
+    private javax.swing.JMenuItem menuConsHospede;
     private javax.swing.JMenuItem menuConsProdutos;
+    private javax.swing.JMenuItem menuConsQuartos;
     // End of variables declaration//GEN-END:variables
 }

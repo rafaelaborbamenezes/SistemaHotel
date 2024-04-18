@@ -19,7 +19,7 @@
                     <Property name="text" type="java.lang.String" value="Cadastrar"/>
                   </Properties>
                 </MenuItem>
-                <MenuItem class="javax.swing.JMenuItem" name="MenuConsHospede">
+                <MenuItem class="javax.swing.JMenuItem" name="menuConsHospede">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Consultar"/>
                   </Properties>
@@ -36,7 +36,7 @@
                     <Property name="text" type="java.lang.String" value="Cadastrar"/>
                   </Properties>
                 </MenuItem>
-                <MenuItem class="javax.swing.JMenuItem" name="MenuConsQuartos">
+                <MenuItem class="javax.swing.JMenuItem" name="menuConsQuartos">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Consultar"/>
                   </Properties>
@@ -53,7 +53,7 @@
                     <Property name="text" type="java.lang.String" value="Cadastrar"/>
                   </Properties>
                 </MenuItem>
-                <MenuItem class="javax.swing.JMenuItem" name="MenuConsFuncionarios">
+                <MenuItem class="javax.swing.JMenuItem" name="menuConsFuncionarios">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Consultar"/>
                   </Properties>
@@ -70,7 +70,7 @@
                     <Property name="text" type="java.lang.String" value="Cadastrar"/>
                   </Properties>
                 </MenuItem>
-                <MenuItem class="javax.swing.JMenuItem" name="MenuConsFornecedores">
+                <MenuItem class="javax.swing.JMenuItem" name="menuConsFornecedores">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Consultar"/>
                   </Properties>
@@ -82,7 +82,7 @@
                 <Property name="text" type="java.lang.String" value="Produtos"/>
               </Properties>
               <SubComponents>
-                <MenuItem class="javax.swing.JMenuItem" name="MenuCadProdutos">
+                <MenuItem class="javax.swing.JMenuItem" name="menuCadProdutos">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Cadastrar"/>
                   </Properties>
