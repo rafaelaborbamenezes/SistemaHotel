@@ -26,17 +26,119 @@ public class TelaPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu9 = new javax.swing.JMenu();
+        menuCadHospede = new javax.swing.JMenuItem();
+        MenuConsHospede = new javax.swing.JMenuItem();
+        jMenu10 = new javax.swing.JMenu();
+        menuCadQuartos = new javax.swing.JMenuItem();
+        MenuConsQuartos = new javax.swing.JMenuItem();
+        jMenu11 = new javax.swing.JMenu();
+        menuCadFuncionarios = new javax.swing.JMenuItem();
+        MenuConsFuncionarios = new javax.swing.JMenuItem();
+        jMenu12 = new javax.swing.JMenu();
+        menuCadFornecedores = new javax.swing.JMenuItem();
+        MenuConsFornecedores = new javax.swing.JMenuItem();
+        jMenu13 = new javax.swing.JMenu();
+        MenuCadProdutos = new javax.swing.JMenuItem();
+        menuConsProdutos = new javax.swing.JMenuItem();
+        jMenu2 = new javax.swing.JMenu();
+        jMenu3 = new javax.swing.JMenu();
+        jMenu4 = new javax.swing.JMenu();
+        jMenu5 = new javax.swing.JMenu();
+        jMenu6 = new javax.swing.JMenu();
+        jMenu7 = new javax.swing.JMenu();
+        jMenu8 = new javax.swing.JMenu();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jMenu1.setText("Cadastros   |");
+
+        jMenu9.setText("Hóspedes");
+
+        menuCadHospede.setText("Cadastrar");
+        jMenu9.add(menuCadHospede);
+
+        MenuConsHospede.setText("Consultar");
+        jMenu9.add(MenuConsHospede);
+
+        jMenu1.add(jMenu9);
+
+        jMenu10.setText("Quartos");
+
+        menuCadQuartos.setText("Cadastrar");
+        jMenu10.add(menuCadQuartos);
+
+        MenuConsQuartos.setText("Consultar");
+        jMenu10.add(MenuConsQuartos);
+
+        jMenu1.add(jMenu10);
+
+        jMenu11.setText("Funcionários");
+
+        menuCadFuncionarios.setText("Cadastrar");
+        jMenu11.add(menuCadFuncionarios);
+
+        MenuConsFuncionarios.setText("Consultar");
+        jMenu11.add(MenuConsFuncionarios);
+
+        jMenu1.add(jMenu11);
+
+        jMenu12.setText("Fornecedores");
+
+        menuCadFornecedores.setText("Cadastrar");
+        jMenu12.add(menuCadFornecedores);
+
+        MenuConsFornecedores.setText("Consultar");
+        jMenu12.add(MenuConsFornecedores);
+
+        jMenu1.add(jMenu12);
+
+        jMenu13.setText("Produtos");
+
+        MenuCadProdutos.setText("Cadastrar");
+        jMenu13.add(MenuCadProdutos);
+
+        menuConsProdutos.setText("Consultar");
+        jMenu13.add(menuConsProdutos);
+
+        jMenu1.add(jMenu13);
+
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Reservas   |");
+        jMenuBar1.add(jMenu2);
+
+        jMenu3.setText("Consumo   |");
+        jMenuBar1.add(jMenu3);
+
+        jMenu4.setText("Financeiro   |");
+        jMenuBar1.add(jMenu4);
+
+        jMenu5.setText("Relatórios   |");
+        jMenuBar1.add(jMenu5);
+
+        jMenu6.setText("Segurança   |");
+        jMenuBar1.add(jMenu6);
+
+        jMenu7.setText("Ferramentas   |");
+        jMenuBar1.add(jMenu7);
+
+        jMenu8.setText("Sair");
+        jMenuBar1.add(jMenu8);
+
+        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 679, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGap(0, 431, Short.MAX_VALUE)
         );
 
         pack();
@@ -78,5 +180,29 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuItem MenuCadProdutos;
+    private javax.swing.JMenuItem MenuConsFornecedores;
+    private javax.swing.JMenuItem MenuConsFuncionarios;
+    private javax.swing.JMenuItem MenuConsHospede;
+    private javax.swing.JMenuItem MenuConsQuartos;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu10;
+    private javax.swing.JMenu jMenu11;
+    private javax.swing.JMenu jMenu12;
+    private javax.swing.JMenu jMenu13;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenu jMenu5;
+    private javax.swing.JMenu jMenu6;
+    private javax.swing.JMenu jMenu7;
+    private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenu jMenu9;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem menuCadFornecedores;
+    private javax.swing.JMenuItem menuCadFuncionarios;
+    private javax.swing.JMenuItem menuCadHospede;
+    private javax.swing.JMenuItem menuCadQuartos;
+    private javax.swing.JMenuItem menuConsProdutos;
     // End of variables declaration//GEN-END:variables
 }
