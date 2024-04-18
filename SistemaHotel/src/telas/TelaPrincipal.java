@@ -75,6 +75,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenuItem20 = new javax.swing.JMenuItem();
         jMenuItem22 = new javax.swing.JMenuItem();
         jMenu7 = new javax.swing.JMenu();
+        jMenu30 = new javax.swing.JMenu();
+        jMenu31 = new javax.swing.JMenu();
         jMenuItem23 = new javax.swing.JMenuItem();
         jMenuItem24 = new javax.swing.JMenuItem();
         jMenu8 = new javax.swing.JMenu();
@@ -82,6 +84,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jMenu1.setText("Cadastros   |");
+        jMenu1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenu9.setText("Hóspedes");
 
@@ -136,6 +139,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("Reservas   |");
+        jMenu2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenuItem11.setText("Cadastrar Reserva");
         jMenu2.add(jMenuItem11);
@@ -154,6 +158,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenuBar1.add(jMenu2);
 
         jMenu3.setText("Vendas   |");
+        jMenu3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenuItem14.setText("Produtos");
         jMenu3.add(jMenuItem14);
@@ -169,6 +174,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenuBar1.add(jMenu3);
 
         jMenu4.setText("Financeiro   |");
+        jMenu4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenu19.setText("Contas a Pagar");
 
@@ -196,6 +202,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenuBar1.add(jMenu4);
 
         jMenu5.setText("Relatórios   |");
+        jMenu5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenu22.setText("Financeiro");
 
@@ -263,6 +270,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenuBar1.add(jMenu5);
 
         jMenu6.setText("Segurança   |");
+        jMenu6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenuItem20.setText("Fazer Backup");
         jMenuItem20.addActionListener(new java.awt.event.ActionListener() {
@@ -278,6 +286,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenuBar1.add(jMenu6);
 
         jMenu7.setText("Ferramentas   |");
+        jMenu7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jMenu30.setText("Tela de Fundo");
+        jMenu7.add(jMenu30);
+
+        jMenu31.setText("Sobre o Sistema");
+        jMenu7.add(jMenu31);
 
         jMenuItem23.setText("Tela de Fundo");
         jMenu7.add(jMenuItem23);
@@ -386,6 +401,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu23;
     private javax.swing.JMenu jMenu24;
     private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu30;
+    private javax.swing.JMenu jMenu31;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
