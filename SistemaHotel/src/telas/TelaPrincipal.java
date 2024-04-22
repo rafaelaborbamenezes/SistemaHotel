@@ -44,41 +44,42 @@ public class TelaPrincipal extends javax.swing.JFrame {
         menuCadProdutos = new javax.swing.JMenuItem();
         menuConsProdutos = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
-        jMenuItem11 = new javax.swing.JMenuItem();
-        jMenuItem12 = new javax.swing.JMenuItem();
-        jMenuItem13 = new javax.swing.JMenuItem();
+        menuCadReservaReservas = new javax.swing.JMenuItem();
+        menuConsReservaReservas = new javax.swing.JMenuItem();
+        menuFinalizarReservaReservas = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
-        jMenuItem14 = new javax.swing.JMenuItem();
-        jMenuItem15 = new javax.swing.JMenuItem();
+        menuProdutosVendas = new javax.swing.JMenuItem();
+        menuServiçosVendas = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         jMenu19 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
+        menuCadContasaPagar = new javax.swing.JMenuItem();
+        menuConsContasaPagar = new javax.swing.JMenuItem();
         jMenu20 = new javax.swing.JMenu();
-        jMenuItem3 = new javax.swing.JMenuItem();
-        jMenuItem4 = new javax.swing.JMenuItem();
-        jMenuItem16 = new javax.swing.JMenuItem();
+        menuCadContasaReceber = new javax.swing.JMenuItem();
+        menuConsContasaReceber = new javax.swing.JMenuItem();
+        menuBalancoFinanceiro = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
         jMenu22 = new javax.swing.JMenu();
-        jMenuItem5 = new javax.swing.JMenuItem();
-        jMenuItem6 = new javax.swing.JMenuItem();
-        jMenuItem7 = new javax.swing.JMenuItem();
+        menuContasaPagarFinanceiro = new javax.swing.JMenuItem();
+        menuContasaReceberFinanceiro = new javax.swing.JMenuItem();
+        menuBalancoFinanceiroRelatorios = new javax.swing.JMenuItem();
         jMenu23 = new javax.swing.JMenu();
-        jMenuItem8 = new javax.swing.JMenuItem();
-        jMenuItem9 = new javax.swing.JMenuItem();
-        jMenuItem10 = new javax.swing.JMenuItem();
+        menuQuartosDisponiveisReservas = new javax.swing.JMenuItem();
+        menuQuartosOcupadosReservas = new javax.swing.JMenuItem();
+        menuReservasFuturasReservas = new javax.swing.JMenuItem();
         jMenu24 = new javax.swing.JMenu();
-        jMenuItem17 = new javax.swing.JMenuItem();
-        jMenuItem18 = new javax.swing.JMenuItem();
-        jMenuItem19 = new javax.swing.JMenuItem();
+        menuHospedesRelatorios = new javax.swing.JMenuItem();
+        menuFuncionariosRelatorios = new javax.swing.JMenuItem();
+        menuFornecedoresRelatorios = new javax.swing.JMenuItem();
         jMenu6 = new javax.swing.JMenu();
-        jMenuItem20 = new javax.swing.JMenuItem();
-        jMenuItem22 = new javax.swing.JMenuItem();
+        menuFazerBackupSeguranca = new javax.swing.JMenuItem();
+        menuRestaurarBackupSeguranca = new javax.swing.JMenuItem();
         jMenu7 = new javax.swing.JMenu();
         jMenu30 = new javax.swing.JMenu();
-        jMenu31 = new javax.swing.JMenu();
-        jMenuItem23 = new javax.swing.JMenuItem();
-        jMenuItem24 = new javax.swing.JMenuItem();
+        menuAddImagemTelaDeFundo = new javax.swing.JMenuItem();
+        menuRemoverImagemTelaDeFundo = new javax.swing.JMenuItem();
+        menuRestaurarPadraoTelaDeFundo = new javax.swing.JMenuItem();
+        menuSobreSistemaSeguranca = new javax.swing.JMenuItem();
         jMenu8 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -141,35 +142,35 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenu2.setText("Reservas   |");
         jMenu2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jMenuItem11.setText("Cadastrar Reserva");
-        jMenu2.add(jMenuItem11);
+        menuCadReservaReservas.setText("Cadastrar Reserva");
+        jMenu2.add(menuCadReservaReservas);
 
-        jMenuItem12.setText("Consultar Reserva");
-        jMenuItem12.addActionListener(new java.awt.event.ActionListener() {
+        menuConsReservaReservas.setText("Consultar Reserva");
+        menuConsReservaReservas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem12ActionPerformed(evt);
+                menuConsReservaReservasActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem12);
+        jMenu2.add(menuConsReservaReservas);
 
-        jMenuItem13.setText("Finalizar Reserva");
-        jMenu2.add(jMenuItem13);
+        menuFinalizarReservaReservas.setText("Finalizar Reserva");
+        jMenu2.add(menuFinalizarReservaReservas);
 
         jMenuBar1.add(jMenu2);
 
         jMenu3.setText("Vendas   |");
         jMenu3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jMenuItem14.setText("Produtos");
-        jMenu3.add(jMenuItem14);
+        menuProdutosVendas.setText("Produtos");
+        jMenu3.add(menuProdutosVendas);
 
-        jMenuItem15.setText("Serviços");
-        jMenuItem15.addActionListener(new java.awt.event.ActionListener() {
+        menuServiçosVendas.setText("Serviços");
+        menuServiçosVendas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem15ActionPerformed(evt);
+                menuServiçosVendasActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem15);
+        jMenu3.add(menuServiçosVendas);
 
         jMenuBar1.add(jMenu3);
 
@@ -178,26 +179,26 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenu19.setText("Contas a Pagar");
 
-        jMenuItem1.setText("Cadastrar");
-        jMenu19.add(jMenuItem1);
+        menuCadContasaPagar.setText("Cadastrar");
+        jMenu19.add(menuCadContasaPagar);
 
-        jMenuItem2.setText("Consultar");
-        jMenu19.add(jMenuItem2);
+        menuConsContasaPagar.setText("Consultar");
+        jMenu19.add(menuConsContasaPagar);
 
         jMenu4.add(jMenu19);
 
         jMenu20.setText("Contas a Receber");
 
-        jMenuItem3.setText("Cadastrar");
-        jMenu20.add(jMenuItem3);
+        menuCadContasaReceber.setText("Cadastrar");
+        jMenu20.add(menuCadContasaReceber);
 
-        jMenuItem4.setText("Consultar");
-        jMenu20.add(jMenuItem4);
+        menuConsContasaReceber.setText("Consultar");
+        jMenu20.add(menuConsContasaReceber);
 
         jMenu4.add(jMenu20);
 
-        jMenuItem16.setText("Balanço");
-        jMenu4.add(jMenuItem16);
+        menuBalancoFinanceiro.setText("Balanço");
+        jMenu4.add(menuBalancoFinanceiro);
 
         jMenuBar1.add(jMenu4);
 
@@ -206,82 +207,82 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenu22.setText("Financeiro");
 
-        jMenuItem5.setText("Contas a Pagar");
-        jMenu22.add(jMenuItem5);
+        menuContasaPagarFinanceiro.setText("Contas a Pagar");
+        jMenu22.add(menuContasaPagarFinanceiro);
 
-        jMenuItem6.setText("Contas a Receber");
-        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+        menuContasaReceberFinanceiro.setText("Contas a Receber");
+        menuContasaReceberFinanceiro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem6ActionPerformed(evt);
+                menuContasaReceberFinanceiroActionPerformed(evt);
             }
         });
-        jMenu22.add(jMenuItem6);
+        jMenu22.add(menuContasaReceberFinanceiro);
 
-        jMenuItem7.setText("Balanço");
-        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+        menuBalancoFinanceiroRelatorios.setText("Balanço");
+        menuBalancoFinanceiroRelatorios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem7ActionPerformed(evt);
+                menuBalancoFinanceiroRelatoriosActionPerformed(evt);
             }
         });
-        jMenu22.add(jMenuItem7);
+        jMenu22.add(menuBalancoFinanceiroRelatorios);
 
         jMenu5.add(jMenu22);
 
         jMenu23.setText("Reservas");
 
-        jMenuItem8.setText("Quartos Disponíveis");
-        jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
+        menuQuartosDisponiveisReservas.setText("Quartos Disponíveis");
+        menuQuartosDisponiveisReservas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem8ActionPerformed(evt);
+                menuQuartosDisponiveisReservasActionPerformed(evt);
             }
         });
-        jMenu23.add(jMenuItem8);
+        jMenu23.add(menuQuartosDisponiveisReservas);
 
-        jMenuItem9.setText("Quartos Ocupados");
-        jMenu23.add(jMenuItem9);
+        menuQuartosOcupadosReservas.setText("Quartos Ocupados");
+        jMenu23.add(menuQuartosOcupadosReservas);
 
-        jMenuItem10.setText("Reservas Futuras");
-        jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
+        menuReservasFuturasReservas.setText("Reservas Futuras");
+        menuReservasFuturasReservas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem10ActionPerformed(evt);
+                menuReservasFuturasReservasActionPerformed(evt);
             }
         });
-        jMenu23.add(jMenuItem10);
+        jMenu23.add(menuReservasFuturasReservas);
 
         jMenu5.add(jMenu23);
 
         jMenu24.setText("Vendas");
         jMenu5.add(jMenu24);
 
-        jMenuItem17.setText("Hóspedes");
-        jMenu5.add(jMenuItem17);
+        menuHospedesRelatorios.setText("Hóspedes");
+        jMenu5.add(menuHospedesRelatorios);
 
-        jMenuItem18.setText("Funcionários");
-        jMenuItem18.addActionListener(new java.awt.event.ActionListener() {
+        menuFuncionariosRelatorios.setText("Funcionários");
+        menuFuncionariosRelatorios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem18ActionPerformed(evt);
+                menuFuncionariosRelatoriosActionPerformed(evt);
             }
         });
-        jMenu5.add(jMenuItem18);
+        jMenu5.add(menuFuncionariosRelatorios);
 
-        jMenuItem19.setText("Fornecedores");
-        jMenu5.add(jMenuItem19);
+        menuFornecedoresRelatorios.setText("Fornecedores");
+        jMenu5.add(menuFornecedoresRelatorios);
 
         jMenuBar1.add(jMenu5);
 
         jMenu6.setText("Segurança   |");
         jMenu6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jMenuItem20.setText("Fazer Backup");
-        jMenuItem20.addActionListener(new java.awt.event.ActionListener() {
+        menuFazerBackupSeguranca.setText("Fazer Backup");
+        menuFazerBackupSeguranca.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem20ActionPerformed(evt);
+                menuFazerBackupSegurancaActionPerformed(evt);
             }
         });
-        jMenu6.add(jMenuItem20);
+        jMenu6.add(menuFazerBackupSeguranca);
 
-        jMenuItem22.setText("Restaurar Backup");
-        jMenu6.add(jMenuItem22);
+        menuRestaurarBackupSeguranca.setText("Restaurar Backup");
+        jMenu6.add(menuRestaurarBackupSeguranca);
 
         jMenuBar1.add(jMenu6);
 
@@ -289,16 +290,20 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenu7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenu30.setText("Tela de Fundo");
+
+        menuAddImagemTelaDeFundo.setText("Add imagem");
+        jMenu30.add(menuAddImagemTelaDeFundo);
+
+        menuRemoverImagemTelaDeFundo.setText("Remover imagem");
+        jMenu30.add(menuRemoverImagemTelaDeFundo);
+
+        menuRestaurarPadraoTelaDeFundo.setText("Restaurar padrão");
+        jMenu30.add(menuRestaurarPadraoTelaDeFundo);
+
         jMenu7.add(jMenu30);
 
-        jMenu31.setText("Sobre o Sistema");
-        jMenu7.add(jMenu31);
-
-        jMenuItem23.setText("Tela de Fundo");
-        jMenu7.add(jMenuItem23);
-
-        jMenuItem24.setText("Sobre o Sistema");
-        jMenu7.add(jMenuItem24);
+        menuSobreSistemaSeguranca.setText("Sobre o Sistema");
+        jMenu7.add(menuSobreSistemaSeguranca);
 
         jMenuBar1.add(jMenu7);
 
@@ -321,37 +326,37 @@ public class TelaPrincipal extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMenuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem12ActionPerformed
+    private void menuConsReservaReservasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuConsReservaReservasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem12ActionPerformed
+    }//GEN-LAST:event_menuConsReservaReservasActionPerformed
 
-    private void jMenuItem15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem15ActionPerformed
+    private void menuServiçosVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuServiçosVendasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem15ActionPerformed
+    }//GEN-LAST:event_menuServiçosVendasActionPerformed
 
-    private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem10ActionPerformed
+    private void menuReservasFuturasReservasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuReservasFuturasReservasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem10ActionPerformed
+    }//GEN-LAST:event_menuReservasFuturasReservasActionPerformed
 
-    private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
+    private void menuQuartosDisponiveisReservasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuQuartosDisponiveisReservasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem8ActionPerformed
+    }//GEN-LAST:event_menuQuartosDisponiveisReservasActionPerformed
 
-    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
+    private void menuBalancoFinanceiroRelatoriosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuBalancoFinanceiroRelatoriosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem7ActionPerformed
+    }//GEN-LAST:event_menuBalancoFinanceiroRelatoriosActionPerformed
 
-    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
+    private void menuContasaReceberFinanceiroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuContasaReceberFinanceiroActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem6ActionPerformed
+    }//GEN-LAST:event_menuContasaReceberFinanceiroActionPerformed
 
-    private void jMenuItem18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem18ActionPerformed
+    private void menuFuncionariosRelatoriosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuFuncionariosRelatoriosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem18ActionPerformed
+    }//GEN-LAST:event_menuFuncionariosRelatoriosActionPerformed
 
-    private void jMenuItem20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem20ActionPerformed
+    private void menuFazerBackupSegurancaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuFazerBackupSegurancaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem20ActionPerformed
+    }//GEN-LAST:event_menuFazerBackupSegurancaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -402,7 +407,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu24;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu30;
-    private javax.swing.JMenu jMenu31;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
@@ -410,38 +414,40 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu8;
     private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem10;
-    private javax.swing.JMenuItem jMenuItem11;
-    private javax.swing.JMenuItem jMenuItem12;
-    private javax.swing.JMenuItem jMenuItem13;
-    private javax.swing.JMenuItem jMenuItem14;
-    private javax.swing.JMenuItem jMenuItem15;
-    private javax.swing.JMenuItem jMenuItem16;
-    private javax.swing.JMenuItem jMenuItem17;
-    private javax.swing.JMenuItem jMenuItem18;
-    private javax.swing.JMenuItem jMenuItem19;
-    private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem20;
-    private javax.swing.JMenuItem jMenuItem22;
-    private javax.swing.JMenuItem jMenuItem23;
-    private javax.swing.JMenuItem jMenuItem24;
-    private javax.swing.JMenuItem jMenuItem3;
-    private javax.swing.JMenuItem jMenuItem4;
-    private javax.swing.JMenuItem jMenuItem5;
-    private javax.swing.JMenuItem jMenuItem6;
-    private javax.swing.JMenuItem jMenuItem7;
-    private javax.swing.JMenuItem jMenuItem8;
-    private javax.swing.JMenuItem jMenuItem9;
+    private javax.swing.JMenuItem menuAddImagemTelaDeFundo;
+    private javax.swing.JMenuItem menuBalancoFinanceiro;
+    private javax.swing.JMenuItem menuBalancoFinanceiroRelatorios;
+    private javax.swing.JMenuItem menuCadContasaPagar;
+    private javax.swing.JMenuItem menuCadContasaReceber;
     private javax.swing.JMenuItem menuCadFornecedores;
     private javax.swing.JMenuItem menuCadFuncionarios;
     private javax.swing.JMenuItem menuCadHospede;
     private javax.swing.JMenuItem menuCadProdutos;
     private javax.swing.JMenuItem menuCadQuartos;
+    private javax.swing.JMenuItem menuCadReservaReservas;
+    private javax.swing.JMenuItem menuConsContasaPagar;
+    private javax.swing.JMenuItem menuConsContasaReceber;
     private javax.swing.JMenuItem menuConsFornecedores;
     private javax.swing.JMenuItem menuConsFuncionarios;
     private javax.swing.JMenuItem menuConsHospede;
     private javax.swing.JMenuItem menuConsProdutos;
     private javax.swing.JMenuItem menuConsQuartos;
+    private javax.swing.JMenuItem menuConsReservaReservas;
+    private javax.swing.JMenuItem menuContasaPagarFinanceiro;
+    private javax.swing.JMenuItem menuContasaReceberFinanceiro;
+    private javax.swing.JMenuItem menuFazerBackupSeguranca;
+    private javax.swing.JMenuItem menuFinalizarReservaReservas;
+    private javax.swing.JMenuItem menuFornecedoresRelatorios;
+    private javax.swing.JMenuItem menuFuncionariosRelatorios;
+    private javax.swing.JMenuItem menuHospedesRelatorios;
+    private javax.swing.JMenuItem menuProdutosVendas;
+    private javax.swing.JMenuItem menuQuartosDisponiveisReservas;
+    private javax.swing.JMenuItem menuQuartosOcupadosReservas;
+    private javax.swing.JMenuItem menuRemoverImagemTelaDeFundo;
+    private javax.swing.JMenuItem menuReservasFuturasReservas;
+    private javax.swing.JMenuItem menuRestaurarBackupSeguranca;
+    private javax.swing.JMenuItem menuRestaurarPadraoTelaDeFundo;
+    private javax.swing.JMenuItem menuServiçosVendas;
+    private javax.swing.JMenuItem menuSobreSistemaSeguranca;
     // End of variables declaration//GEN-END:variables
 }
